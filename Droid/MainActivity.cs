@@ -31,7 +31,7 @@ namespace testApp.Droid
 				double d;
 				if (double.TryParse(priceText.Text, out d))
 				{
-					totalPriceText.Text = string.Format("{0}円", MyClass.GetTax(d);
+					totalPriceText.Text = string.Format("{0}円", MyClass.GetTax(d));
 				}
 			};
 			// 追加分終了
